@@ -1,0 +1,55 @@
+//for starting python is redhate  >>python36
+
+//how to read data of ram name of program is >> fmem  
+
+//swap program in python
+
+>>> x=5
+>>>y=10
+>>>x , y=y,x
+>>>x=10
+>>>y=5
+
+>>> x="this is linux world"
+>>> x[8:13]
+linux
+
+>>> "vaibhav " in x
+false
+
+>>>"linux " in x
+true
+
+>>>import subprocess 
+>>>subprocess.getoutput("date")
+
+#gedit code.py //create a program file
+#python36 code.py
+
+//we use opencv module
+
+
+****************************************************
+//photo editing
+
+#python36
+>>>import cv2
+>>>cap = cv2.VideoCapture(0)
+>>>ret , photo = cap.read()
+//
+>>>photo.shape
+(480,640,3)
+>>>photo
+array
+>>>photo[10] = [0,255,0]
+>>>photo[10:20] = [0,255,0]
+cap.release()
+//
+
+IDE - Jupyter
+have to stop firewall
+# jupyter notebook  --allow-root --ip=0.0.0
+/>new>program>run
+/>mobile-- browser/search ip../port
+
+#iptables -f //it stopes the firewall

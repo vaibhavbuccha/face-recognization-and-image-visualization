@@ -1,0 +1,9 @@
+#systemctl  start docker  //launch docker
+#docker image
+
+//on image folder
+
+#docker load -i ubuntu-latest.tar
+#docker image
+#docker ps
+#docker run -ubuntu:latest

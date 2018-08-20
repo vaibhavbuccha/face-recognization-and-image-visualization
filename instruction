@@ -1,0 +1,42 @@
+redhat***********
+to find the directory of the program use command
+>> which firefox            --it provides the directory
+
+***************************
+..for find thecode of firefox
+>> gedit/usr/bin/firfox       --it provides the the code of firefox
+
+*******************
+for checking webcam is connect to our linux or not
+ontop click on devices.. you see the webcame
+
+********************
+
+how to access it via command
+>>cheese 
+
+********
+ctrl to comeout form redhat
+
+******************
+basic commands of redhat///
+>>date 
+>>cal     --callender
+>> useradd vaibhav      --create new useradd
+>>passwd vaibhav    //after enter it will ask password of vaibhav //but root is admin
+
+//bridging is compulsory
+>>ifconfig  enp0s3    --it provides network details
+>>ping  192.168.222.1(ip)   --for termination left ctrl+c
+
+//remote host
+>> ssh 192.168.225.82(ip) date   --it show date of remote useradd
+>>ssh -X (ip)  cheese      --for accessing graphical access
+
+ssh for  showing
+scp for tranfering file
+
+"""this is done with your laptop but how you can run this program on your friends pc
+#pwd //for finding current directory
+# scp  cam.py ....ip.....:/root   //for transfering the file to fiends pc
+# ssh -X .....ip.... python36 /root/cam.py

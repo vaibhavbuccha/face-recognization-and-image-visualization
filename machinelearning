@@ -1,0 +1,8 @@
+haarcascade
+
+#jupyter notebook --allow -ip=0.0.0
+
+ctrl+alt+f2 //for new usershift
+
+#usermode - l -jack
+#usermode -u - jack
