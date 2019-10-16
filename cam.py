@@ -5,6 +5,8 @@ cap = cv2.VideoCapture(0) """for camera prifrence"""
 """
 cap.read()  """for capturing the photo"""
 """
+"""for recording video we use read"""
+
 r , photo = cap.read()
 
 #cv2.imwrite("my.png" , photo) """for saving the photo but not show"""
